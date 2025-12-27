@@ -1,18 +1,27 @@
 # Global Health Statistics Analysis
 
-## Project Overview
-This project analyzes a global health dataset to understand disease impact, mortality rates, recovery outcomes, and healthcare access across countries. Python was used for analysis and Power BI was used for visualization.
+## Problem Statement
+How do healthcare access levels influence mortality outcomes across countries and disease categories?
 
-## Tools Used
-- Python (Pandas, Matplotlib, Seaborn)
-- Power BI
 ## Dataset
--Added from the kaggle 
+- Source: Kaggle
+- Records: X
+- Key features: mortality_rate, healthcare_access, recovery_rate
 
-## Contents
-- Data cleaning and exploratory analysis
-- Executive Power BI dashboard
-- Final project report
+## Approach
+- Data cleaning & validation
+- Aggregation at country and disease-category level
+- Exploratory analysis
+- Dashboard visualization
 
-## Note
-This project is created for portfolio and analytical demonstration purposes.
+## Key Insights
+- Countries with low healthcare access show consistently higher mortality
+- Certain disease categories show poor outcomes despite moderate access
+- Mortality variation is more pronounced across regions than diseases
+
+## Business / Policy Implications
+- Prioritize healthcare access improvements in high-risk regions
+- Focus on early intervention diseases with high population impact
+- Improve healthcare efficiency, not just access
+## Tools
+Python, Power BI
